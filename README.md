@@ -12,6 +12,31 @@ yarn dev
 pnpm dev
 ```
 
+Copy code
+
+# News App with Firebase Integration
+
+- A news reader app built with Next.js integrating Firebase for authentication. 
+- Users can register, log in, read personalized news. 
+-  the news API (https://newsapi.org/) for fetching articles.
+
+## Tech Stack
+
+- Next.js, React, HTML, CSS, JavaScript
+- Firebase (Authentication)
+- News API: https://newsapi.org/
+
+## Features
+
+- User Registration and Login
+- News API Integration with Grid View
+
+## Screenshots
+
+![Login Page](/public/image-1.png)
+![SignUp Page](/public/image-1.png)
+![News Page](/public/image-2.png)
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -32,7 +57,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-![Login Page](/public/image-1.png)
-![SignUp Page](/public/image-1.png)
-![News Page](/public/image-2.png)
